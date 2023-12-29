@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Calculator</title>
+  <link rel="stylesheet" href="styles.css"> <!-- You can create a separate CSS file for styling -->
+</head>
+<body>
+  <div class="calculator">
+    <input type="text" id="display" readonly>
+    <button onclick="clearDisplay()">C</button>
+    <button onclick="appendToDisplay('7')">7</button>
+    <button onclick="appendToDisplay('8')">8</button>
+    <button onclick="appendToDisplay('9')">9</button>
+    <!-- Add buttons for other numbers and operations -->
+    <button onclick="calculate()">=</button>
+  </div>
+  <script src="script.js"></script> <!-- Your JavaScript file -->
+</body>
+</html>

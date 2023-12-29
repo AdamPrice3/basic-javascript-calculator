@@ -1,0 +1,11 @@
+{
+  "name": "calculator-app",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron --no-sandbox ."
+  },
+  "devDependencies": {
+    "electron": "^28.1.0"
+  }
+}
